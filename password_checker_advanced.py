@@ -30,8 +30,8 @@ def evaluate_strength (event=None) :
         label.config(text="Moderate", fg="orange")
         bar.config(bg="orange", width=160)
     elif strength == 4:
-        label.config(text="Strong", fg="blue")
-        bar.config(bg="blue", width=240)
+        label.config(text="Strong", fg="green")
+        bar.config(bg="green", width=240)
     else:
         label.config(text="Very Strong", fg="green")
         bar.config(bg="green", width=320)
